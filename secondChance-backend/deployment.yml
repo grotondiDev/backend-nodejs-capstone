@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: secondchanceapp-container
-        image: us.icr.io/sn-labs-jkaewprateep/secondchanceapp
+        image: us.icr.io/sn-labs-rotondigm/secondchanceapp
         ports:
         - containerPort: 3060
       imagePullSecrets:
